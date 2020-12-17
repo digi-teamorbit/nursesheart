@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+    <title>Covid 19</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hover-min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+     <link href="css/hover.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+
+
+  </head>
+<body>
+
+
+<!-- Header Start -->
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="sidenav" id="mySidenav">
+            <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+          </div>
+          <div class="mobilecontainer hidden-lg hidden-md">
+            <span class="pull-right" onclick="openNav()" style="font-size:30px;cursor:pointer">&#9776;</span>
+          </div>
+          <div class="col-md-12 col-xs-12 col-sm-12">
+            <div class="main-logo">
+              <div class="logowow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
+                <a href="index.html"><img src="images/logo.png" class="img-responsive wow pulse animated animated" data-wow-delay="200ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 200ms; animation-iteration-count: infinite; animation-name: pulse;" alt=""></a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </header>
+  <!-- header ends -->
+
+<!-- Inner Banner Section Start -->
+
+
+<div class="banner"> <img src="images/inner-banner.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="container">
+      <div class="text">
+        <h1 class="playf"> Schedule COVID Testing for Clinic </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Inner Banner Section End -->
+
+
+
+<!-- Covid test Section Start -->
+<section class="covid-form">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-xs-12">
+        <div class="select-state-usa">
+          <h1>  Schedule COVID Testing for Clinic </h1>
+        </div>
+      
+  <div class="custom-state-field text-center">
+    <form>
+      <select name="list" id="list" accesskey="target">
+        <option value='none' selected>Select State/City</option>
+        <option value="patient-signup.html"> Marion, OH </option>
+        <option value="patient-signup.html"> Dayton, OH </option>
+        <option value="patient-signup.html"> Springfield, OH </option>        
+      </select>
+      <input type=button value="Go" onclick="goToNewPage()" />
+    </form>
+  </div>
+  
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Covid test form Section End -->
+
+
+
+
+
+<!-- Copy Right Section Start -->
+<section class="copy-right">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 col-md-12">
+        <div class="copy-right-content">
+          <p>Copyright © 2020 www.nursesheartmedstaffing.com - All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Copy Right Section End -->
+
+
+<!-- Js Files Start --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script type="text/javascript">
+      new WOW().init();
+    </script>
+      
+
+        <script type="text/javascript">
+    function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script>   
+
+
+</body>
+</html>
